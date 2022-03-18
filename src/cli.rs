@@ -26,7 +26,7 @@ pub fn run() {
 
 pub fn all_colours() {
     black!("black ");
-    red!("red ");
+    red!("This is red ");
     green!("green ");
     yellow!("yellow ");
     blue!("blue ");

@@ -1,6 +1,7 @@
-mod cli;
+mod api;
 
 fn main() {
-    cli::run();
-    cli::all_colours();
+    api::blocking();
+    api::asyncro();
+    // cli::all_colours();
 }
